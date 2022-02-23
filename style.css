@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62,5%;
+    font-family: "Poppins", sans-serif;
+}
+#main {
+    width: 80%;
+    margin: 3rem auto;
+}
+.header {
+    height: 5rem;
+    border: 2px solid #ccc;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.header h1 {
+    background-image: linear-gradient(#e66465, #9198e5);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+     
+}
+.nav {
+    height: 3rem;
+    border: 2px solid #ccc;
+}
+.layout {
+    width: 100%;
+    display: flex;
+    border: 2px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+    height: 44rem;
+}
+.layout .left {
+    width: 30%;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout .left li {
+    list-style: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.layout .left h2 {
+    font-size: 4rem;
+    background-image: linear-gradient(#e66465, #9198e5);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.layout .left a {
+    text-decoration: none;
+    color: #000;
+}
+.layout .right {
+    width: 70%;
+    background-color: gold;
+}
+
+.footer {
+    height: 5rem;
+    border: 2px solid #ccc;
+
+}
